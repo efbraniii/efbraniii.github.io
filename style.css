@@ -1,0 +1,33 @@
+* {
+ font-family : "Garamond", Verdana, Arial !important;  
+}
+ h1, p {
+ font-family : "Courier New", Verdana, Arial !important;
+ font-variant : small-caps;
+ font-style : bold;
+ font-size : 10;
+ color: #696969;
+ background-color: rgb(240, 230, 97);
+ text-align : justify;
+ Line-height : 150%;
+ border : 2px solid #000;
+ border-radius : 1px;
+ margin-top : 40px;
+ left : 50%;
+ 
+ }
+
+ h2, p {
+ font-family : "Courier New", Verdana, Arial !important;
+ font-style : italic;
+ font-size : 8;
+ color: #696969;
+ background-color: rgb(204, 198, 231);
+ text-align : justify;
+ Line-height : 100%;
+ border : 1px solid #000;
+ border-radius : 1px;
+ margin-top : 20px;
+ left : 50%;
+ 
+ }
