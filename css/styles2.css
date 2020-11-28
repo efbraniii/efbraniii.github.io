@@ -210,7 +210,7 @@ margin-right: 10px;
     }
 
     /* MODAL CONTENT */
-    input[type=text], input[type=email] {
+    input[type=text], input[type=email], #messageModal {
         width: 100%;
         padding: 10px 20px;
         margin: 8px 0;
