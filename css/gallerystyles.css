@@ -1,0 +1,38 @@
+.gallery-body {
+    background: linear-gradient(to left, rgba(205,205,209,1), white);
+    
+}
+.gallery {
+    color: black;
+    margin-top: 80px;
+    padding: 0;
+    scroll behavior: smooth;
+}
+
+.gallery img {
+    transition: 2s;
+    padding: 2px;
+    margin: 5px 20px 5px 20px;
+    width: 200px;
+    border-style: solid;
+    border-color: rgb(24, 25, 26);
+    
+}
+.gallery h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+.gallery h4 {
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-top: -25px;
+    font-size: 1.7em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}

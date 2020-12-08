@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles2.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/icons/A&A.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/icons/gear.ico" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,7 +22,7 @@
 <body>
 <div class="container-fluid full-width">
     <nav class="navbar navbar-expand-md fixed-top navbar-custom">
-        <a class="navbar-brand" href="index.html" target="_blank"><img src="/images/A&A.PNG" height="50" alt="logo"></a>
+        <a class="navbar-brand" href="index.html" target="_blank"><img src="/images/Logo-AA-Gear-v1.png" height="60" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav ml-auto">
           <li class="nav-item px-2">
-            <a class="nav-link" href="#top"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/index2.html#top"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-2">
             <a class="nav-link" href="#aboutMe"><i class="far fa-id-badge"></i> About</a>
@@ -50,9 +50,9 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Mechanical designs</h1>
-      <p class="lead">Shipping carriers, aircraft, and motor vehicles</p>
+      <p class="lead">Steel structures, piping, and cargo cranes </p>
       <hr class="my-2">
-      <p>Custom technical design</p>
+      <p>Customized 3-D and 2-D prints</p>
       <p class="lead">
         <a class="btn btn-success" href="#aboutMe" role="button">Read more</a>
       </p>
@@ -77,11 +77,11 @@
 							 	<label for="uname"><b>Name: </b></label>
 							 	<input type="text" placeholder="Enter Username" name="uname" required>
 
-							 	<label for="emailModal"><b>Email: </b></label><br>
+							 	<label for="emailModal"><b>Email: </b></label>
 							 	<input type="email" placeholder="Enter Email" name="emailModal" required>
 
                  <label for="messageModal"><b>Message:</b></label>
-                 <textarea name="message" id="messageModal" ></textarea>
+                 <textarea name="message" id="messageModal" cols="30" rows="10"></textarea>
 								<button class="btn btn-warning submit btn-block">Submit</button>
 
 							</div>
@@ -89,14 +89,16 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+    </div>
+  </div>
 </div>
-  <hr>
+<br>
+<br>
+<hr>
 
   <div class="card" id="aboutMe">
     <div class="card-header">
-      <h2>András Ilyés</h2>
+      <h2><span id="Andras">András Ilyés</span></h2>
     </div>
     <div class="card-body" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear" data-aos-once="true" id="aboutMe-body">
       <div class="row">
@@ -118,7 +120,7 @@
 
   <div class="card" id="services">
     <div class="card-header">
-      <h2>Services</h2>
+      <h2><span>Services</h2></span>
     </div>
     <div class="card-body" id="services-body">
       <div class="row">
@@ -126,7 +128,7 @@
           <div class="service-tile-headers text-center"><i class="fas fa-ruler-combined fa-5x"></i>
           <h4>Design</h4>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Using the latest 3D CAD technology, we design custom mechanical prototypes, based on our client's specific requirements from initial sketches to final products. We deliver high-resolution 3D models and 2D drawings required for production.</p>
         </div>
 
         <div class="col-md-4 service-tile"id="services-item-2">
@@ -145,7 +147,6 @@
       </div>
     </div>
   </div>
-
   <hr>
 
   <div class="card" id="portfolio">
@@ -155,13 +156,13 @@
     <div class="card-body" id="portfolio-body">
       <div id="portfolio-tiles" class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
-            <a href="#"><div id="classic-tile"><span>classic</span></div></a>
+            <a href="/gallery.html#steel-gallery" target="_blank"><div id="classic-tile"><span>steel structures</span></div></a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-            <a href="#"><div id="new-tile"><span>new</span></div></a>
+            <a href="/gallery.html#pipe-gallery" target="_blank"><div id="new-tile"><span>pipe and routing systems</span></div></a>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
-            <a href="#"><div id="custom-tile"><span>custom</span></div></a>
+            <a href="/gallery.html#conveyor-gallery" target="_blank"><div id="custom-tile"><span>conveyors & more</span></div></a>
         </div>
       </div>
       </div>
@@ -169,17 +170,16 @@
   <hr>
   <div class="card" id="contact">
     <div class="card-header">
-      <h2>Contact</h2>
+      <h2><span>Contact</span></h2>
     </div>
     <div class="card-body" id="contact-body"></div>
       <div class="row">
-
-      <div class="col-md-6 contact-card">
+      <div class="col-md-7 contact-card">
         <div class="form-header">
           <h5>Send a message</h5>
         </div>
         <br>
-        <form class="form-horizontal contact-form">
+        <form class="form-horizontal" id="contact-form">
           <div class="form-group">
               <label for="name"class="control-label">Name*</label>
               <div class="">
@@ -204,18 +204,18 @@
               <textarea name="message" id="message" cols="30" rows="5"></textarea>
             </div>
           </div>
-          <div class="col-sm-offset-2 col-sm-offset-10">
+          <div class="">
               <button class="btn btn-warning" id="submit-btn" type="submit">Submit</button>
           </div>
           <br>
         </form>
       </div>
 
-      <div class="col-md-6 contact-text" id="contact-info">
+      <div class="col-md-4 contact-text" id="contact-info">
         <h5>Call now</h5>
         <br>
         <div id="office-telephone">
-          <a href="tel:+36307550409" class="btn" id="telephone-num"><span><i class="fas fa-phone-square-alt"></i></span> +36 30 755 0409</a>
+          <a href="tel:+40742980828" class="btn" id="telephone-num"><span><i class="fas fa-phone-square-alt"></i></span> +40 (742) 980 828</a>
         </div>
         <div id="address">
         </div>  
@@ -239,13 +239,18 @@
 <footer class="panel-footer">
   <div class="container">
     <div class="row">
-      <section id="personal-email" class="col-sm-6">
-        <p>Andras-Ilyes@A&A-designs.com</p>
+      <section id="personal-email" class="col-sm-4">
+        <p>ilyes_sm@live.com </p>
         <hr class="visible-sm">
       </section>
-      <section id="address" class="col-sm-6">
-        Sziv utca 10<br>
-        Satu Mare, Romania 1063
+      <section id="address" class="col-sm-4">
+        Str. Zutpfen nr. 16A<br>
+        440050 Satu Mare <br>
+        Romania
+        <hr class="visible-sm">
+      </section>
+      <section id="personal-phone" class="col-sm-4">
+        <p>+40 (742) 980 828</p>
         <hr class="visible-sm">
       </section>
       </div>
